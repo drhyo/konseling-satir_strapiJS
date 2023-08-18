@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gallery_companies",
+  "info": {
+    "singularName": "gallery-company",
+    "pluralName": "gallery-companies",
+    "displayName": "Gallery Company"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

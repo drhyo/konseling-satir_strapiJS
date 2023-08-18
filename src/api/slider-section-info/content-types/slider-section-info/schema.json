@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "slider_section_infos",
+  "info": {
+    "singularName": "slider-section-info",
+    "pluralName": "slider-section-infos",
+    "displayName": "Slider Section Info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}
