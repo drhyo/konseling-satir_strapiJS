@@ -38,7 +38,8 @@
       "enum": [
         "Pelatihan",
         "Layanan",
-        "Konsultasi"
+        "Konsultasi",
+        "Webinar"
       ]
     },
     "slug": {
@@ -49,6 +50,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::product-variant.product-variant"
+    },
+    "webinar": {
+      "displayName": "webinar",
+      "type": "component",
+      "repeatable": false,
+      "component": "variant.webinar"
     }
   }
 }

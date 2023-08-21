@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product-variant",
     "pluralName": "product-variants",
-    "displayName": "Product Variant"
+    "displayName": "Product Variant",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,7 +19,8 @@
       "type": "float"
     },
     "isPopuler": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "eventDate": {
       "type": "datetime"
@@ -29,6 +31,11 @@
         "preset": "toolbar"
       },
       "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "variant.fitur"
     }
   }
 }
