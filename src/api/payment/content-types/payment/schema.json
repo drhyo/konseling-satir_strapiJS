@@ -4,7 +4,8 @@
   "info": {
     "singularName": "payment",
     "pluralName": "payments",
-    "displayName": "Payment"
+    "displayName": "Payment",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,9 +15,35 @@
     "PaymentsBank": {
       "type": "enumeration",
       "enum": [
-        "BCA",
-        "Mandiri"
+        "Bank",
+        "Electronic Money"
       ]
+    },
+    "providerImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "qrisScan": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "providerAccount": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
     }
   }
 }
