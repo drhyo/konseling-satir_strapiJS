@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "packages",
+  "info": {
+    "singularName": "package",
+    "pluralName": "packages",
+    "displayName": "Paket"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "price": {
+      "type": "float"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "variant.fitur"
+    }
+  }
+}
