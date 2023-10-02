@@ -72,14 +72,28 @@
       "mappedBy": "users"
     },
     "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Laki-laki",
+        "Perempuan"
+      ]
+    },
+    "dateOfBirth": {
+      "type": "date"
     }
   }
 }
