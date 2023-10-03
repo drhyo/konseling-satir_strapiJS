@@ -88,7 +88,7 @@
     "gender": {
       "type": "enumeration",
       "enum": [
-        "Laki-laki",
+        "Laki - Laki",
         "Perempuan"
       ]
     },
