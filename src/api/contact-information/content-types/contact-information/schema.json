@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact-information",
     "pluralName": "contact-informations",
-    "displayName": "Contact Information"
+    "displayName": "Contact Information",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,11 +15,11 @@
     "phone": {
       "type": "string"
     },
-    "email": {
-      "type": "email"
-    },
     "adress": {
       "type": "text"
+    },
+    "email": {
+      "type": "string"
     }
   }
 }

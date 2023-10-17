@@ -37,7 +37,7 @@
       "type": "enumeration",
       "enum": [
         "Pelatihan",
-        "Layanan",
+        "Konseling",
         "Konsultasi",
         "Webinar",
         "Paket"
